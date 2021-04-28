@@ -4,7 +4,28 @@ import { PageHero } from '../components'
 import aboutImg from '../assets/hero-bcg.jpeg'
 
 const AboutPage = () => {
-  return <h4>about page</h4>
+  return <main>
+    <PageHero/>
+    <Wrapper className='page section section-center'>
+    <img src={aboutImg} alt="desk"/>
+    <article>
+      <div className="title">
+        <h2>About Us</h2>
+        <div className="underline"></div>
+      </div>
+      <p>
+      In publishing and graphic design, 
+      Lorem ipsum is a placeholder text commonly used to 
+      demonstrate the visual form of a document or a 
+      typeface without relying on meaningful content. 
+      Lorem ipsum may be used as a placeholder before 
+      final copy is available
+      </p>
+      
+    </article>
+
+    </Wrapper>
+  </main>
 }
 
 const Wrapper = styled.section`
