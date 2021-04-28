@@ -9,6 +9,7 @@ import CartButtons from './CartButtons'
 import { useUserContext } from '../context/user_context'
 
 const Sidebar = () => {
+ 
   let isTrue = true;
   return <SidebarContainer>
 
