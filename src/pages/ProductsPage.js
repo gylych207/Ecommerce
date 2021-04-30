@@ -1,12 +1,22 @@
 import React from 'react'
-import { useParams } from 'react-router'
 import styled from 'styled-components'
 import { Filters, ProductList, Sort, PageHero } from '../components'
-import { useProductsContext } from '../context/products_context'
 
 const ProductsPage = () => {
-
-  return <h4>products page</h4>
+  return (
+    <main>
+      <PageHero title='products' />
+      <Wrapper className='page'>
+        <div className='section-center products'>
+          <Filters />
+          <div>
+            <Sort />
+            <ProductList />
+          </div>
+        </div>
+      </Wrapper>
+    </main>
+  )
 }
 
 const Wrapper = styled.div`
