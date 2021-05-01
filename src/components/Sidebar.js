@@ -9,30 +9,42 @@ import CartButtons from './CartButtons'
 import { useUserContext } from '../context/user_context'
 
 const Sidebar = () => {
-  const {isSidebarOpen,closeSidebar} = useProductsContext();
-  
-  return <SidebarContainer>
+  const { isSidebarOpen, closeSidebar } = useProductsContext()
+  const { myUser } = useUserContext()
 
-    <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
-      <div className="sidebar-header">
-        <img src={logo} alt="logo" className='logo' />
-        <button className='close-btn' type='button' onClick={closeSidebar}>
-          <FaTimes />
-        </button>
-      </div>
-    <ul className="links">
-      {links.map(({id,text,url})=>{
-        return <li key={id}>
-          <Link to={url} onClick={closeSidebar}>{text}</Link>
-        </li>
-      })}
-      <li >
-          <Link to='/checkout' onClick={closeSidebar}>checkout</Link>
-        </li>
-    </ul>
-    <CartButtons/>
-    </aside>
-  </SidebarContainer>
+  return (
+    <SidebarContainer>
+      <aside
+        className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}
+      >
+        <div className='sidebar-header'>
+          <img src={logo} className='logo' alt='comfy sloth' />
+          <button className='close-btn' type='button' onClick={closeSidebar}>
+            <FaTimes />
+          </button>
+        </div>
+        <ul className='links'>
+          {links.map(({ id, text, url }) => {
+            return (
+              <li key={id}>
+                <Link to={url} onClick={closeSidebar}>
+                  {text}
+                </Link>
+              </li>
+            )
+          })}
+          {myUser && (
+            <li>
+              <Link to='/checkout' onClick={closeSidebar}>
+                checkout
+              </Link>
+            </li>
+          )}
+        </ul>
+        <CartButtons />
+      </aside>
+    </SidebarContainer>
+  )
 }
 
 const SidebarContainer = styled.div`
@@ -73,14 +85,12 @@ const SidebarContainer = styled.div`
     transition: var(--transition);
     letter-spacing: var(--spacing);
   }
-
   .links a:hover {
     padding: 1rem 1.5rem;
     padding-left: 2rem;
     background: var(--clr-grey-10);
     color: var(--clr-grey-2);
   }
-
   .sidebar {
     position: fixed;
     top: 0;
