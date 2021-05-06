@@ -204,3 +204,132 @@ p {
 .page {
   min-height: calc(100vh - (20vh + 10rem));
 }
+.sc-idOhPF.iVmqpo{
+  background-image: linear-gradient(to top, #a4c5f4, #7fd5f4, #78e0de, #9ce6bc, #d0e59f);
+
+  margin-top:10px ;
+  
+
+}
+.products-container{
+  box-shadow: 10px 10px 5px grey;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding: 50px;
+}
+form{
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding: 25px;
+box-shadow: 10px 10px 5px grey;
+
+}
+ .search-input{
+  background: red;
+
+
+}
+.sc-bqyKva.dFouiD{
+  box-shadow: 10px 10px 5px grey;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding: 10px;
+}
+#sort{
+  background-color: #8EC5FC;
+}
+select.company{
+  background-color: #8EC5FC;
+  
+}
+.sc-bdfBwQ.cOpYlq{
+  box-shadow: 10px 10px 5px grey;
+  padding: 10px;
+}
+.sc-kfzAmx.fdksrN.page.section.section-center{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.content h1{
+  color: maroon;
+}
+.section.section-center.text-center h2{
+  color: maroon;
+}
+.sc-iBPRYJ.eMFcTn{
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.sc-gKsewC.eKgRAy.section-center{
+  box-shadow: 10px 10px 5px grey;
+
+padding: 50px;
+margin-top: 20px;
+}
+.our{
+  color: black;
+}
+.story{
+  color: brown;
+}
+.fproducts{
+  color: brown;
+}
+.btn{
+  background-color: brown;
+}
+.sc-fubCfw.rEjhp{
+  background: linear-gradient(135deg, orange 30%, cyan);
+}
+.section-center.featured{
+  background: linear-gradient(15deg, orange 30%, cyan);
+}
+.sc-lmoMRL.kkNnKp.section{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 10px;
+  margin-bottom: 20px;;
+}
+.sc-gKsewC.eKgRAy.section-center{
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.sc-kfzAmx.fdksrN.page.section.section-center{
+  background-image: linear-gradient(to top, #5f96e7, #00b9f5, #00d6da, #50e9a5, #cbf274);
+}
+.sc-bkzZxe.iQnclg.section.section-center{
+  background-image: linear-gradient(to top, #dcf4a4, #d9f0a3, #d6eca2, #d3e9a0, #d0e59f);
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+button.link-btn.clear-btn{
+  background-color: maroon;
+}
+.product-center{
+  background-image: linear-gradient(to top, #b5e9de, #baefd6, #c6f4cb, #d9f8bf, #f1f9b3);
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.sc-dQppl.jGSaJM{
+  box-shadow: 10px 10px 5px grey;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding: 50px;
+}
+.sc-eCssSg.kmlpzt{
+  background-image: linear-gradient(to top, #080f0d, #131a16, #1c231c, #272d21, #343626);
+}

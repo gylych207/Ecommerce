@@ -45,6 +45,8 @@ const Nav = () => {
 
 const NavContainer = styled.nav`
   height: 5rem;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +60,7 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
+      width: 200px;
       margin-left: -15px;
     }
   }
@@ -93,8 +95,9 @@ const NavContainer = styled.nav`
         margin: 0 0.5rem;
       }
       a {
-        color: var(--clr-grey-3);
-        font-size: 1rem;
+        color: brown;
+        font-size: 21px;
+        font-wieght:bold;
         text-transform: capitalize;
         letter-spacing: var(--spacing);
         padding: 0.5rem;
